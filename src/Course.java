@@ -11,11 +11,11 @@ public class  Course{
 
     public void addStudent (Student s, int index){
         if(index >= 0 && index < students.length){
-            student[index] = s;
+            students[index] = s;
 
         }
         else{
-            System.out.println ("error, invalid index")
+            System.out.println ("error, invalid index");
         }
     }
 
