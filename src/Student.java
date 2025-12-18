@@ -63,5 +63,7 @@ public class Student {
         return gpa >= 3.5;
     }
 
-
+    public String toString(){
+        return "Student:" + "name = " + name + ", id = " + id + ", major = " + major + ", gpa = " + gpa + ", credits = " + credits;
+    }
 }
